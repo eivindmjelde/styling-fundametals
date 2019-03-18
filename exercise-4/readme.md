@@ -2,7 +2,7 @@
 
 Media query is a CSS technique introduced in CSS3.
 It uses the @media rule to include a block of CSS properties only if a certain condition is true.
-To use a mediaquery simply make a new css rule with the @media tag followed by only screen and a breakpoint. It is common to use a window width as breakpoints either through min-width or max-width, but you can also trigger it through the property (orientation: landscape) for example if you are on mobile and turn the device over.
+To use a mediaquery simply make a new css rule with the @media tag followed by only screen and a breakpoint. It is common to use the screen width as breakpoints either through min-width or max-width, but you can also trigger it through the property (orientation: landscape) for example if you are on mobile and turn the device over.
 
 In this example code the background color of the body will change to red when the min-width og the window is 600px. This means that resizing the browser window will give the webpage a different look depending on how much space is available.
 
